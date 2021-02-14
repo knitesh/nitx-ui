@@ -1,0 +1,35 @@
+{
+  "name": "nitx-ui",
+  "version": "1.0.0",
+  "description": "React style component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start-storybook -p 9001 -c .storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Kumar Nitesh",
+  "license": "ISC",
+  "dependencies": {
+    "@storybook/cli": "6.1.18",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.16",
+    "@babel/preset-env": "7.12.16",
+    "@babel/preset-react": "7.12.13",
+    "@storybook/addon-actions": "^6.1.18",
+    "@storybook/addon-essentials": "^6.1.18",
+    "@storybook/addon-links": "^6.1.18",
+    "@storybook/react": "^6.1.18",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.1.0",
+    "lerna": "^3.22.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "webpack": "5.21.2",
+    "webpack-cli": "4.5.0"
+  }
+}
